@@ -22147,11 +22147,12 @@ img.mfp-img {
     Switcher Styles  
 ---------------------------*/
 .my_switcher {
-  position: fixed;
+ 
   left: 30px;
   transform: rotate(90deg);
   z-index: 99;
   bottom: 30px;
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .my_switcher {
@@ -22174,7 +22175,7 @@ img.mfp-img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border: 2px solid var(--color-border);
   border-radius: 100px;
-  line-height: 40px;
+  line-height: 100px;
 }
 .my_switcher ul li {
   margin: 0;
@@ -22196,6 +22197,8 @@ img.mfp-img {
   letter-spacing: 0.3px;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  padding: 0;
 }
 .my_switcher ul li a img,
 .my_switcher ul li button img {
@@ -22222,7 +22225,7 @@ img.mfp-img {
   color: #18191A;
   background: transparent;
   outline: 0;
-  border: 0;
+  border-radius: 50%;
 }
 
 /*----------------------
@@ -32402,3 +32405,4 @@ Course Sidebar
   background-color: #273041;
 }
 /*# sourceMappingURL=../maps/styles.css.map */
+
