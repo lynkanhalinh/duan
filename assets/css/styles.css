@@ -119,8 +119,8 @@
 /*-- Variables --*/
 @import url("../../../../css2");
 :root {
-  --color-primary: #2f57ef;
-  --color-secondary: #b966e7;
+  --color-primary:#2f57ef;
+  --color-secondary:#b966e7;
   --color-coral: #E9967A;
   --color-violet: #800080;
   --color-pink: #DB7093;
@@ -11116,7 +11116,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 .rbt-header-mid-1 .quick-access > li.account-access {
   padding-left: 10px;
   margin-left: 10px;
-  margin-right: 0;
+  
   position: relative;
 }
 .rbt-header-mid-1 .quick-access > li.account-access::after {
