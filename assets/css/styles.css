@@ -10487,6 +10487,9 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
     width: auto;
   }
 }
+#user-menu-desktop:hover .rbt-user-menu-list-wrapper {
+    display: block !important;
+}
 
 /*-------------------------
     Mini Cart
