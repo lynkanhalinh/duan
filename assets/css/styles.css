@@ -30363,7 +30363,7 @@ Course Sidebar
 .active-dark-mode .h6 {
   color: var(--color-white);
 }
-.active-dark-mode .bg-color-white {
+.active-dark-mode .bg-color-white, .popup-mobile-menu .inner-wrapper, .popup-mobile-menu .inner-wrapper .inner-top .close-button {
   background: var(--color-darker) !important;
 }
 .active-dark-mode .color-white-dark {
@@ -31017,7 +31017,7 @@ Course Sidebar
 }
 .active-dark-mode .rbt-header .rbt-header-wrapper {
   background-color: var(--color-bodyest);
-  box-shadow: 0px 20px 34px rgba(0, 0, 0, 0.0509803922);
+  box-shadow: 0 20px 34px rgba(0, 0, 0, 0.0509803922);
 }
 .active-dark-mode .rbt-header.rbt-transparent-header .rbt-header-wrapper.rbt-sticky {
   background-color: var(--color-bodyest) !important;
